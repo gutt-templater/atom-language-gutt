@@ -1,10 +1,9 @@
 {
   "name": "language-gutt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gutt language support in Atom",
   "engines": {
-    "atom": "*",
-    "node": "*"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "author": {
     "name": "Aleksei Chikin",
@@ -17,9 +16,5 @@
   ],
   "repository": "https://github.com/makingoff/atom-language-gutt",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
