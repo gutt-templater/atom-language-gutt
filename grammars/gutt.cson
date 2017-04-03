@@ -260,24 +260,8 @@
   'operators':
     'patterns': [
       {
-        'match': '<<|>>>|>>'
-        'name': 'keyword.operator.bitwise.shift.js'
-      }
-      {
-        'match': '!=|<=|>=|==|<|>'
-        'name': 'keyword.operator.comparison.js'
-      }
-      {
-        'match': '&&|!!|!|\\|\\||\\?'
+        'match': '\\?'
         'name': 'keyword.operator.logical.js'
-      }
-      {
-        'match': '&|\\||\\^|~'
-        'name': 'keyword.operator.bitwise.js'
-      }
-      {
-        'match': '\\*|/|-|\\+\\+|\\+|\\.\\.\\.|\\.\\.'
-        'name': 'keyword.operator.js'
       }
     ]
   'entities':
@@ -343,6 +327,9 @@
     'name': 'logic.block'
     'contentName': 'source.js.embedded.html'
     'patterns': [
+      {
+        'include': '#operators'
+      }
       {
         'include': 'source.js'
       }
