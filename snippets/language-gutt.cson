@@ -1,4 +1,4 @@
-'.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
+'.source.gutt':
   # A
   'Anchor':
     'prefix': 'a'
@@ -188,7 +188,7 @@
   'Input':
     'prefix': 'input'
     'body': '<input type="${1:text}" name="$2" value="$3" />$0'
-  'Import Template':
+  'Import':
     'prefix': 'import'
     'body': '<import name="$1" from="$2" />$0'
   'Inserted Text':

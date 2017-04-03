@@ -1,4 +1,4 @@
-'scopeName': 'source.text.html.js'
+'scopeName': 'source.gutt'
 'fileTypes': [
   'gutt'
   'tmplt'
@@ -341,19 +341,10 @@
       '0':
         'name': 'entity.name.tag.html'
     'name': 'logic.block'
+    'contentName': 'source.js.embedded.html'
     'patterns': [
       {
-        'include': '#string-double-quoted'
-      }
-      {
-        'include': '#string-single-quoted'
-      }
-      {
-        'include': '#operators'
-      }
-      {
-        'name': 'constant.numeric.decimal.js'
-        'match': '\\b\\d+(\\.\\d+)?\\b'
+        'include': 'source.js'
       }
     ]
   'tag-stuff':
